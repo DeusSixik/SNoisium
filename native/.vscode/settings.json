@@ -1,0 +1,13 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled", 
+    "cmake.cmakePath": "cmake", // Убедись, что cmake в PATH или укажи путь
+    "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
+    "cmake.configureOnOpen": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}",
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=never",
+        "--query-driver=C:/msys64/ucrt64/bin/g++*" 
+    ]
+}

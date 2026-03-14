@@ -1,0 +1,22 @@
+# Project exclude paths
+/common/.gradle
+/neoforge/.gradle
+/fabric/.gradle
+/.gradle/
+/build/
+/common/build/
+/fabric/.gradle/
+/fabric/build/
+/neoforge/.gradle/
+/neoforge/build/
+/neoforge/run/
+/fabric/run/
+/.idea/
+/.architectury-transformer
+/common/logs/
+*.log
+DensityOperation/.idea/
+DensityOperation/dist/
+native/.cache
+native/build
+native/compile_commands.json
